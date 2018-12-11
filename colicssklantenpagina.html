@@ -1,0 +1,143 @@
+<doctype! html>
+<head>
+	<title>Colicss Hosting</title>
+
+</head>
+<style>
+body{
+	background:gray;
+	background:url('colicss.jpg');
+}
+header{
+	font-family:Arial;
+}
+ul{
+	display:inline;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #333;
+}
+li{
+	float:left;
+}
+li a{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:#66b3ff;
+}
+.active{
+	background-color:red;
+}
+.rechts{
+	float:right;
+}
+h1{
+	color:black;
+	font-family:Arial;
+	border-bottom:2px solid black;
+	text-align:left;
+}
+section{
+
+}
+article{
+	background:white;
+	padding:10px;
+	color:black;
+	font-family:Arial;
+	text-align:center;
+}
+footer{
+	text-align:center;
+	color:white;
+	font-family:Arial;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+p.solid{
+  border-style:solid;
+}
+</style>
+<body>
+	<header>
+			<ul>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicsshome.html">Home</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssalgemeneinformatie.html">Algemene Informatie</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssinformatieoverhosting.html">Informatie over Hosting</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssinformatieovercloud.html">Informatie over Cloud</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssklantenpagina.html">Klantenpagina</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicsssocialmedia.html">Social media</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicsscontactpagian.html">Contactpagina</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssfotos.html">Foto's</a></li>
+				<br>
+			</ul>
+		<div>
+			<form class="rechts">
+				<input type="text" name="tag" />
+				<input type="submit" value="Zoeken.." />
+			</form>
+		</div>
+		<br><br><br><br>
+	</header>
+
+	<section>
+		<article>
+			<h1>Klantenpagina</h1>
+			<p>
+				<div class="row">
+  					<div class="column">
+    					<p class="solid"><a href="https://www.mcdonalds.nl/"><img src="macdonalds.jpg" title="Mc Donald's" style="width:38%"></a><br>
+    					Naam Klant: Mc Donald's<br>
+    					Hosting Pakket: Pakket Silver<br>
+    					Cloud Pakket: Pakket Oranje</p>
+
+  				</div>
+  					<div class="column">
+    					<p class="solid"><a href="https://www.samsung.com/nl/"><img src="samsung.jpg" title="Samsung" style="width:100%"></a>
+    					Naam Klant: Samsung<br>
+    					Hosting Pakket: Pakket Brons<br>
+    					Cloud Pakket: Pakket Geel</p>
+  					</div>
+  				<div class="column">
+    					<p class="solid"><a href="https://www2.hm.com/nl_nl/index.html"><img src="hm.jpg" title="H&M" style="width:50%"></a><br>
+    					Naam Klant: H&M<br>
+    					Hosting Pakket: Pakket Goud<br>
+    					Cloud Pakket: Pakekt Groen</p>
+  				</div>
+				</div>
+		</article>
+	</section>
+
+	<footer>
+		<p>Marc van Middendorp©</p>
+	</footer>
+
+	

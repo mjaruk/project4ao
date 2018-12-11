@@ -1,0 +1,54 @@
+body{
+	background:gray;
+	background:url('colicss.jpg');
+}
+header{
+	font-family:Arial;
+}
+ul{
+	display:inline;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #333;
+}
+li{
+	float:left;
+}
+li a{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:#66b3ff;
+}
+.active{
+	background-color:red;
+}
+.rechts{
+	float:right;
+}
+h1{
+	color:black;
+	font-family:Arial;
+	border-bottom:2px solid black;
+}
+section{
+
+}
+article{
+	background:white;
+	padding:10px;
+	color:black;
+	font-family:Arial;
+	text-align:stretch;
+}
+footer{
+	text-align:center;
+	color:white;
+	font-family:Arial;
+
+}

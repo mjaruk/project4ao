@@ -1,0 +1,148 @@
+<doctype! html>
+<head>
+	<title>Colicss Hosting</title>
+</head>
+<style>
+body{
+	background:gray;
+	background:url('colicss.jpg');
+}
+header{
+	font-family:Arial;
+}
+ul{
+	display:inline;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #333;
+}
+li{
+	float:left;
+}
+li a{
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:#66b3ff;
+}
+.active{
+	background-color:red;
+}
+.rechts{
+	float:right;
+}
+h1{
+	color:black;
+	font-family:Arial;
+	border-bottom:2px solid black;
+}
+section{
+
+}
+article{
+	background:white;
+	padding:10px;
+	color:black;
+	font-family:Arial;
+	text-align:stretch;
+}
+footer{
+	text-align:center;
+	color:white;
+	font-family:Arial;
+
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family:Arial;
+}
+
+input[type=submit] {
+    background-color: #66b3ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:Arial;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-family:Arial;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+	<header>
+			<ul>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicsshome.html">Home</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssalgemeneinformatie.html">Algemene Informatie</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssinformatieoverhosting.html">Informatie over Hosting</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssinformatieovercloud.html">Informatie over Cloud</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssklantenpagina.html">Klantenpagina</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicsssocialmedia.html">Social media</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicsscontactpagian.html">Contactpagina</a></li>
+				<li><a href="file:///C:/Users/marcv/OneDrive%20-%20ROC%20Alfa-college/Leerjaar%201/Periode%202/Project/Project%204/Applicatieontwikkelaar/colicssfotos.html">Foto's</a></li>
+				<br>
+			</ul>
+		<br><br><br><br>
+	</header>
+
+	<section>
+		<article>
+			<h1>Contactpagina</h1>
+			
+			<div class="container">
+  				<form action="/action_page.php">
+    				<label for="fname">Voornaam</label>
+    				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    				<label for="lname">Achternaam</label>
+    				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    				<label for="country">Land</label>
+    				<select id="country" name="country">
+      					<option value="Nederland">Nederland</option>
+      					<option value="België">België</option>
+      					<option value="Duitsland">Duitsland</option>
+    				</select>
+
+    				<label for="subject">Bericht</label>
+    				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    				<input type="submit" value="Submit">
+  				</form>
+			</div>
+			
+			<h2>Contactgegevens</h2>
+			<p>Colicss<br>
+			Herenstraat 24<br>
+			7776 AG, Slagharen<br>
+			06-12412498<br>
+			KVK: 05076893</p>
+		</article>
+	</section>
+
+	<footer>
+		<p>Marc van Middendorp©</p>
+	</footer>
